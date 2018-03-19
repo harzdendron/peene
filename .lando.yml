@@ -46,8 +46,8 @@ services:
       services:
         environment:
           BEHAT_PARAMS: '{"extensions" : {"Behat\\MinkExtension" : {"base_url" : "http://nginx/"}, "Drupal\\DrupalExtension" : {"drush" :   {  "root":  "/app/web" }}}}'
-    config:
-      conf: php.ini
+    #config:
+    #  conf: php.ini
     #      THING: STUFF
     #    ports: ['9112:81']
 #  config:
